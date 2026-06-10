@@ -11,7 +11,7 @@ defaultContentLanguageInSubdir = true
     contentDir = "content/pt"
     weight = 1
     [languages.pt.params]
-      homeInfoParams.Title = "Documentando a virada"
+      homeInfoParams.Title = "Onde tudo começa"
       homeInfoParams.Content = "Após mais de 20 anos de carreira em tecnologia e segurança da informação, decidi mudar o rumo da minha vida. Pedi demissão de um emprego estável e vim morar no Canadá — sem emprego garantido do outro lado, recomeçando praticamente do zero.\n\nFoi uma decisão que misturou uma vontade antiga de viver fora com o momento certo pra finalmente agir. E trouxe desafios que eu sabia que existiam no papel, mas que são bem diferentes quando você os vive: o idioma no dia a dia, a instabilidade financeira de recomeçar, e todo o peso de um processo de imigração.\n\nCriei este blog pra documentar essa jornada — o lado técnico, com procedimentos e aprendizados do meu dia a dia implementando e gerenciando ferramentas e infraestrutura, e também o lado humano de mudar de país e aprender a viver em outro idioma.\n\nSe você está pensando em trilhar um caminho parecido, ou só tem curiosidade sobre como é fazer essa virada, espero que encontre algo útil por aqui. Seja bem-vindo."
     [[languages.pt.menu.main]]
       identifier = "tech"
@@ -39,7 +39,7 @@ defaultContentLanguageInSubdir = true
     contentDir = "content/en"
     weight = 2
     [languages.en.params]
-      homeInfoParams.Title = "Documenting the leap"
+      homeInfoParams.Title = "Where it all begins"
       homeInfoParams.Content = "After more than 20 years working in technology and information security, I decided to change the course of my life. I left a stable job and moved to Canada — with nothing lined up on the other side, starting again almost from scratch.\n\nIt was a decision that brought together a long-held desire to live abroad and the right moment to finally act on it. And it came with challenges I knew existed on paper, but that feel very different once you're actually living them: the language in everyday life, the financial uncertainty of starting over, and the full weight of an immigration process.\n\nI created this blog to document that journey — the technical side, with procedures and lessons from my day-to-day work implementing and managing tools and infrastructure, and also the human side of moving to a new country and learning to live in another language.\n\nIf you're thinking about taking a similar path, or you're simply curious about what making this kind of leap is like, I hope you find something useful here. Welcome."
     [[languages.en.menu.main]]
       identifier = "tech"

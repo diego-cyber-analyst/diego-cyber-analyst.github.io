@@ -46,7 +46,24 @@ body {
     color: var(--content);
     font-size: 34px;
     line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+/* ===== Subtítulo (texto por idioma) ===== */
+.home-info .entry-header::after {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary);
     margin-bottom: 20px;
+}
+
+html[lang^="pt"] .home-info .entry-header::after {
+    content: "Tecnologia, mudança e recomeço";
+}
+
+html[lang^="en"] .home-info .entry-header::after {
+    content: "Technology, change, and starting over";
 }
 
 /* ===== Texto de abertura ===== */
