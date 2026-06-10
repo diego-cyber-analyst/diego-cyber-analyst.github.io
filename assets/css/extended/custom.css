@@ -1,0 +1,100 @@
+:root {
+    --primary: #185FA5;
+}
+
+.dark {
+    --primary: #5DA0E8;
+}
+
+a {
+    color: var(--primary);
+}
+
+/* ===== Fundo da página + frame arredondado ===== */
+body {
+    background: var(--code-bg);
+}
+
+.dark body {
+    background: #0d1117;
+}
+
+.main {
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 40px 44px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* ===== Linha-tag acima do título ===== */
+.home-info .entry-header::before {
+    content: "Cybersecurity & Applied AI · Calgary";
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+
+/* ===== Título de impacto ===== */
+.home-info .entry-header h1 {
+    color: var(--content);
+    font-size: 34px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* ===== Texto de abertura ===== */
+.home-info .entry-content {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--secondary);
+}
+
+.home-info .entry-content p {
+    margin-bottom: 1.1em;
+}
+
+/* ===== Divisor de posts (texto por idioma) ===== */
+.home-info::after {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--content);
+    margin-top: 64px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+html[lang^="pt"] .home-info::after {
+    content: "Últimos posts";
+}
+
+html[lang^="en"] .home-info::after {
+    content: "Latest posts";
+}
+
+/* ===== Card de post (borda azul à esquerda + hover) ===== */
+.post-entry {
+    border-radius: 12px;
+    border-left: 3px solid var(--primary);
+    margin-top: 18px;
+    transition: transform 0.15s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== Títulos dos posts em azul ===== */
+.post-title,
+.post-entry .entry-header h2 {
+    color: var(--primary);
+}

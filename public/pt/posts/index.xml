@@ -6,6 +6,15 @@
     <description>Recent content in Posts on Diego Souza</description>
     <generator>Hugo</generator>
     <language>pt</language>
+    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Por que esse blog existe</title>
+      <link>http://localhost:1313/pt/posts/post-inicial/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/post-inicial/</guid>
+      <description>&lt;p&gt;Após mais de 20 anos de carreira em tecnologia e segurança da informação, decidi mudar o rumo da minha vida. Pedi demissão de um emprego estável e vim morar no Canadá — sem emprego garantido do outro lado, recomeçando praticamente do zero.&lt;/p&gt;
+&lt;p&gt;Foi uma decisão que misturou uma vontade antiga de viver fora com o momento certo pra finalmente agir. E trouxe desafios que eu sabia que existiam no papel, mas que são bem diferentes quando você os vive: o idioma no dia a dia, a instabilidade financeira de recomeçar, e todo o peso de um processo de imigração.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
