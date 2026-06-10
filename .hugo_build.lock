@@ -1,0 +1,74 @@
+baseURL = "https://diego-cyber-analyst.github.io/"
+title = "Diego Souza"
+theme = "PaperMod"
+
+defaultContentLanguage = "pt"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.pt]
+    label = "Português"
+    contentDir = "content/pt"
+    weight = 1
+    [languages.pt.params]
+      homeInfoParams.Title = "Diego Souza"
+      homeInfoParams.Content = "Cybersecurity & Applied AI. Notas sobre tecnologia, a jornada de imigração para o Canadá e o aprendizado de inglês."
+    [[languages.pt.menu.main]]
+      identifier = "tech"
+      name = "Tecnologia"
+      url = "/pt/tags/tech/"
+      weight = 1
+    [[languages.pt.menu.main]]
+      identifier = "imigracao"
+      name = "Imigração"
+      url = "/pt/tags/imigracao/"
+      weight = 2
+    [[languages.pt.menu.main]]
+      identifier = "ingles"
+      name = "Inglês"
+      url = "/pt/tags/ingles/"
+      weight = 3
+    [[languages.pt.menu.main]]
+      identifier = "arquivo"
+      name = "Arquivo"
+      url = "/pt/archives/"
+      weight = 4
+
+  [languages.en]
+    label = "English"
+    contentDir = "content/en"
+    weight = 2
+    [languages.en.params]
+      homeInfoParams.Title = "Diego Souza"
+      homeInfoParams.Content = "Cybersecurity & Applied AI. Notes on technology, the journey of immigrating to Canada, and learning English."
+    [[languages.en.menu.main]]
+      identifier = "tech"
+      name = "Tech"
+      url = "/en/tags/tech/"
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "immigration"
+      name = "Immigration"
+      url = "/en/tags/immigration/"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "english"
+      name = "English"
+      url = "/en/tags/english/"
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "archive"
+      name = "Archive"
+      url = "/en/archives/"
+      weight = 4
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  homeInfoParams.enabled = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
