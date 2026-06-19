@@ -115,3 +115,62 @@ html[lang^="en"] .home-info::after {
 .post-entry .entry-header h2 {
     color: var(--primary);
 }
+
+/* ===== Tabelas (suaves, largura do conteúdo) ===== */
+.post-content table {
+    width: auto;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 15px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.post-content table th {
+    background: #eef3f8;
+    color: #2c3e50;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px 14px;
+    border: none;
+}
+
+.dark .post-content table th {
+    background: #1b2530;
+    color: #c9d6e2;
+}
+
+.post-content table td {
+    padding: 10px 14px;
+    border: none;
+    border-top: 1px solid var(--border);
+}
+
+.post-content table tbody tr:nth-child(even) {
+    background: rgba(24, 95, 165, 0.035);
+}
+
+.dark .post-content table tbody tr:nth-child(even) {
+    background: rgba(93, 160, 232, 0.06);
+}
+
+/* ===== Caixa de dica / citação (azul bem lavado) ===== */
+.post-content blockquote {
+    background: #f4f8fc;
+    border-left: 4px solid var(--primary);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    margin: 1.5em 0;
+    color: var(--content);
+    font-style: normal;
+}
+
+.dark .post-content blockquote {
+    background: #161e27;
+}
+
+.post-content blockquote p {
+    margin: 0;
+}
