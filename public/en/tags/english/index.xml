@@ -6,8 +6,16 @@
     <description>Recent content in English on Diego Souza</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-world English</title>
+      <link>http://localhost:1313/en/posts/real-world-english/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/real-world-english/</guid>
+      <description>&lt;p&gt;In my very first week, I realized some things would be harder than I expected. One in particular: the language.&lt;/p&gt;
+&lt;p&gt;I had studied English before — a few times, actually. But I&amp;rsquo;ll be honest: spending hours with a book in my hands was never really my thing. That&amp;rsquo;s exactly why I always liked IT. Most of what I know, I learned hands-on — by doing, breaking, fixing. Studying theory sitting still never worked for me the way practice does.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why this blog exists</title>
       <link>http://localhost:1313/en/posts/post-inicial/</link>
