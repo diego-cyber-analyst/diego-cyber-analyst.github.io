@@ -118,7 +118,7 @@ html[lang^="en"] .home-info::after {
 
 /* ===== Tabelas (suaves, largura do conteúdo) ===== */
 .post-content table {
-    width: auto;
+    width: auto !important;
     max-width: 100%;
     border-collapse: collapse;
     margin: 1.5em 0;
@@ -126,10 +126,11 @@ html[lang^="en"] .home-info::after {
     border: 1px solid var(--border);
     border-radius: 8px;
     overflow: hidden;
+    display: table !important;
 }
 
 .post-content table th {
-    background: #eef3f8;
+    background: #eef3f8 !important;
     color: #2c3e50;
     font-weight: 500;
     text-align: left;
@@ -138,7 +139,7 @@ html[lang^="en"] .home-info::after {
 }
 
 .dark .post-content table th {
-    background: #1b2530;
+    background: #1b2530 !important;
     color: #c9d6e2;
 }
 
